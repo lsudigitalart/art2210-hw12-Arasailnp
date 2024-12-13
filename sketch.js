@@ -66,6 +66,6 @@ function draw() {
     
   //}
   //mouse show
-   fill(255, 60, 100);
-  text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+   //fill(255, 60, 100);
+  //text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
 }
