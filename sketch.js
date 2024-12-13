@@ -34,9 +34,10 @@ function draw() {
   if (key === 'a'){
     value = 225
     image(box123, x, y- 150, 80, 120) 
-    fill(220)
+    fill('#fdf9f0')
     noStroke()
     rect(x,y,80,120)
+    fill(200,100,10)
     text('Its not Here!',123, 106)
    
   }
@@ -54,8 +55,17 @@ function draw() {
     noStroke()
     fill('#fdf9f0')
     rect(493, 358, 80, 120)
-  image(hat,  228, 380, 80, 80 )  
+  image(hat,  493, 380, 80, 80 )  
     image(box123, 493, 358- 150, 80, 120) }
  
   
     
+  
+  //function ( ){
+ 
+    
+  //}
+  //mouse show
+   fill(255, 60, 100);
+  text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+}
